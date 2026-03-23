@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 # Set up the Streamlit page configuration
-st.set_page_config(page_title="Multi-Asset Live Dashboard", layout="wide")
+st.set_page_config(page_title="Multi-Asset Live Dashboard", layout="narrow")
 
 st.title("📈 Multi-Asset Live Correlation & Performance Dashboard")
 st.markdown("Compare **Nifty 50, Crude Oil, Gold, Silver, and Bitcoin (BTC)** using live data from Yahoo Finance.")
